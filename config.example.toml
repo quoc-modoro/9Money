@@ -381,6 +381,15 @@ model_id = "eleven_multilingual_v2"
 
 [ui]
 # Cài đặt liên quan đến giao diện người dùng
+# Ngôn ngữ giao diện mặc định (界面默认语言)
+language = "vi"
+
+# Giọng đọc mặc định - giọng nữ tiếng Việt (默认配音)
+voice_name = "vi-VN-HoaiMyNeural-Female"
+
+# Phông chữ phụ đề mặc định, hỗ trợ đầy đủ dấu tiếng Việt (默认字幕字体)
+font_name = "BeVietnamPro-Bold.ttf"
+
 # 是否隐藏日志信息 (Ẩn thông tin nhật ký hay không)
 # Ẩn nhật ký trong giao diện hay không
 hide_log = false

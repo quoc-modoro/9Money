@@ -2,10 +2,10 @@
 <h1 align="center">MoneyPrinterTurbo 💸</h1>
 
 <p align="center">
-  <a href="https://github.com/harry0703/MoneyPrinterTurbo/stargazers"><img src="https://img.shields.io/github/stars/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge" alt="Người theo dõi"></a>
-  <a href="https://github.com/harry0703/MoneyPrinterTurbo/issues"><img src="https://img.shields.io/github/issues/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge" alt="Vấn đề"></a>
-  <a href="https://github.com/harry0703/MoneyPrinterTurbo/network/members"><img src="https://img.shields.io/github/forks/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge" alt="Fork"></a>
-  <a href="https://github.com/harry0703/MoneyPrinterTurbo/blob/main/LICENSE"><img src="https://img.shields.io/github/license/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge" alt="Giấy phép"></a>
+  <a href="https://github.com/quoc-modoro/9Money/stargazers"><img src="https://img.shields.io/github/stars/quoc-modoro/9Money.svg?style=for-the-badge" alt="Người theo dõi"></a>
+  <a href="https://github.com/quoc-modoro/9Money/issues"><img src="https://img.shields.io/github/issues/quoc-modoro/9Money.svg?style=for-the-badge" alt="Vấn đề"></a>
+  <a href="https://github.com/quoc-modoro/9Money/network/members"><img src="https://img.shields.io/github/forks/quoc-modoro/9Money.svg?style=for-the-badge" alt="Fork"></a>
+  <a href="https://github.com/quoc-modoro/9Money/blob/main/LICENSE"><img src="https://img.shields.io/github/license/quoc-modoro/9Money.svg?style=for-the-badge" alt="Giấy phép"></a>
 </p>
 
 <h3>Tiếng Việt | <a href="README-en.md">English</a> | <a href="README-zh.md">简体中文</a> | <a href="README-ar.md">العربية</a></h3>
@@ -15,6 +15,8 @@
 </div>
 
 Chỉ cần cung cấp một <b>chủ đề</b> hoặc <b>từ khóa</b> cho video, hệ thống sẽ tự động tạo ra kịch bản video, tư liệu video, phụ đề video và nhạc nền video, sau đó tổng hợp thành một video ngắn độ nét cao.
+
+<i>Phiên bản dành cho thị trường Việt Nam, dựa trên dự án mã nguồn mở <a href="https://github.com/harry0703/MoneyPrinterTurbo">MoneyPrinterTurbo</a>.</i>
 
 ### Giao Diện Web
 

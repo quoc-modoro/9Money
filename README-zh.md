@@ -2,10 +2,10 @@
 <h1 align="center">MoneyPrinterTurbo 💸</h1>
 
 <p align="center">
-  <a href="https://github.com/harry0703/MoneyPrinterTurbo/stargazers"><img src="https://img.shields.io/github/stars/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge" alt="Stargazers"></a>
-  <a href="https://github.com/harry0703/MoneyPrinterTurbo/issues"><img src="https://img.shields.io/github/issues/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge" alt="Issues"></a>
-  <a href="https://github.com/harry0703/MoneyPrinterTurbo/network/members"><img src="https://img.shields.io/github/forks/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge" alt="Forks"></a>
-  <a href="https://github.com/harry0703/MoneyPrinterTurbo/blob/main/LICENSE"><img src="https://img.shields.io/github/license/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/quoc-modoro/9Money/stargazers"><img src="https://img.shields.io/github/stars/quoc-modoro/9Money.svg?style=for-the-badge" alt="Stargazers"></a>
+  <a href="https://github.com/quoc-modoro/9Money/issues"><img src="https://img.shields.io/github/issues/quoc-modoro/9Money.svg?style=for-the-badge" alt="Issues"></a>
+  <a href="https://github.com/quoc-modoro/9Money/network/members"><img src="https://img.shields.io/github/forks/quoc-modoro/9Money.svg?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/quoc-modoro/9Money/blob/main/LICENSE"><img src="https://img.shields.io/github/license/quoc-modoro/9Money.svg?style=for-the-badge" alt="License"></a>
 </p>
 <br>
 <h3><a href="README.md">Tiếng Việt</a> | <a href="README-en.md">English</a> | 简体中文 | <a href="README-ar.md">العربية</a></h3>

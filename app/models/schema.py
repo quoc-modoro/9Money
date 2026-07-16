@@ -59,10 +59,10 @@ class VideoParams(BaseModel):
     """
     {
       "video_subject": "",
-      "video_aspect": "横屏 16:9（西瓜视频）",
-      "voice_name": "女生-晓晓",
+      "video_aspect": "Ngang 16:9",
+      "voice_name": "vi-VN-HoaiMyNeural-Female",
       "bgm_name": "random",
-      "font_name": "STHeitiMedium 黑体-中",
+      "font_name": "BeVietnamPro-Bold.ttf",
       "text_color": "#FFFFFF",
       "font_size": 60,
       "stroke_color": "#000000",
@@ -98,7 +98,7 @@ class VideoParams(BaseModel):
     subtitle_enabled: Optional[bool] = True
     subtitle_position: Optional[str] = config.ui.get("subtitle_position", "bottom")  # top, bottom, center, custom (trên, dưới, giữa, tùy chỉnh)
     custom_position: float = config.ui.get("custom_position", 70.0)
-    font_name: Optional[str] = "STHeitiMedium.ttc"
+    font_name: Optional[str] = "BeVietnamPro-Bold.ttf"
     text_fore_color: Optional[str] = "#FFFFFF"
     text_background_color: Union[bool, str] = True
     rounded_subtitle_background: bool = False
@@ -115,14 +115,14 @@ class VideoParams(BaseModel):
 class SubtitleRequest(BaseModel):
     video_script: str
     video_language: Optional[str] = ""
-    voice_name: Optional[str] = "zh-CN-XiaoxiaoNeural-Female"
+    voice_name: Optional[str] = "vi-VN-HoaiMyNeural-Female"
     voice_volume: Optional[float] = 1.0
     voice_rate: Optional[float] = 1.2
     bgm_type: Optional[str] = "random"
     bgm_file: Optional[str] = ""
     bgm_volume: Optional[float] = 0.2
     subtitle_position: Optional[str] = config.ui.get("subtitle_position", "bottom")
-    font_name: Optional[str] = "STHeitiMedium.ttc"
+    font_name: Optional[str] = "BeVietnamPro-Bold.ttf"
     text_fore_color: Optional[str] = "#FFFFFF"
     text_background_color: Union[bool, str] = True
     rounded_subtitle_background: bool = False
@@ -136,7 +136,7 @@ class SubtitleRequest(BaseModel):
 class AudioRequest(BaseModel):
     video_script: str
     video_language: Optional[str] = ""
-    voice_name: Optional[str] = "zh-CN-XiaoxiaoNeural-Female"
+    voice_name: Optional[str] = "vi-VN-HoaiMyNeural-Female"
     voice_volume: Optional[float] = 1.0
     voice_rate: Optional[float] = 1.2
     bgm_type: Optional[str] = "random"
@@ -148,7 +148,7 @@ class AudioRequest(BaseModel):
 class VideoScriptParams:
     """
     {
-      "video_subject": "春天的花海",
+      "video_subject": "Cánh đồng hoa mùa xuân",
       "video_language": "",
       "paragraph_number": 1,
       "video_script_prompt": "",
@@ -156,7 +156,7 @@ class VideoScriptParams:
     }
     """
 
-    video_subject: Optional[str] = "春天的花海"
+    video_subject: Optional[str] = "Cánh đồng hoa mùa xuân"
     video_language: Optional[str] = ""
     paragraph_number: int = Field(default=1, ge=1, le=10)
     video_script_prompt: str = Field(default="", max_length=2000)
@@ -173,9 +173,9 @@ class VideoTermsParams:
     }
     """
 
-    video_subject: Optional[str] = "春天的花海"
+    video_subject: Optional[str] = "Cánh đồng hoa mùa xuân"
     video_script: Optional[str] = (
-        "春天的花海，如诗如画般展现在眼前。万物复苏的季节里，大地披上了一袭绚丽多彩的盛装。金黄的迎春、粉嫩的樱花、洁白的梨花、艳丽的郁金香……"
+        "Cánh đồng hoa mùa xuân hiện ra trước mắt như một bức tranh thơ mộng. Trong mùa vạn vật hồi sinh, đất trời khoác lên mình tấm áo rực rỡ sắc màu. Hoa mai vàng rực, hoa đào hồng thắm, hoa mận trắng tinh khôi, hoa tulip kiêu sa…"
     )
     amount: Optional[int] = 5
     match_materials_to_script: bool = False
@@ -184,14 +184,14 @@ class VideoTermsParams:
 class VideoSocialMetadataParams:
     """
     {
-      "video_subject": "A day in Shanghai",
+      "video_subject": "Một ngày ở Hà Nội",
       "video_script": "",
       "language": "auto",
       "platform": "tiktok"
     }
     """
 
-    video_subject: Optional[str] = Field(default="A day in Shanghai", max_length=500)
+    video_subject: Optional[str] = Field(default="Một ngày ở Hà Nội", max_length=500)
     video_script: Optional[str] = Field(default="", max_length=8000)
     language: Optional[str] = Field(default="auto", max_length=64)
     platform: Optional[str] = Field(default="tiktok", max_length=64)
@@ -290,7 +290,7 @@ class VideoScriptResponse(BaseResponse):
                 "status": 200,
                 "message": "success",
                 "data": {
-                    "video_script": "春天的花海，是大自然的一幅美丽画卷。在这个季节里，大地复苏，万物生长，花朵争相绽放，形成了一片五彩斑斓的花海..."
+                    "video_script": "Cánh đồng hoa mùa xuân là một bức tranh tuyệt đẹp của thiên nhiên. Trong mùa này, đất trời hồi sinh, vạn vật sinh sôi, muôn hoa đua nở tạo nên một biển hoa rực rỡ sắc màu..."
                 },
             },
         }
@@ -314,9 +314,9 @@ class VideoSocialMetadataResponse(BaseResponse):
                 "status": 200,
                 "message": "success",
                 "data": {
-                    "title": "A Day in Shanghai You Should Not Miss",
-                    "caption": "Save this quick Shanghai inspiration and follow for more short travel ideas.",
-                    "hashtags": ["#shorts", "#travel", "#shanghai", "#viral", "#fyp"],
+                    "title": "Một Ngày Ở Hà Nội Bạn Không Nên Bỏ Lỡ",
+                    "caption": "Lưu lại gợi ý du lịch Hà Nội này và theo dõi để xem thêm nhiều ý tưởng video ngắn.",
+                    "hashtags": ["#shorts", "#dulich", "#hanoi", "#viral", "#fyp"],
                 },
             },
         }

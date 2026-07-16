@@ -33,11 +33,11 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="auto",
     menu_items={
-        "Report a bug": "https://github.com/harry0703/MoneyPrinterTurbo/issues",
-        "About": "# MoneyPrinterTurbo\nChỉ cần cung cấp chủ đề hoặc từ khóa cho video, hệ thống sẽ "
+        "Report a bug": "https://github.com/quoc-modoro/9Money/issues",
+        "About": "# 9Money\nChỉ cần cung cấp chủ đề hoặc từ khóa cho video, hệ thống sẽ "
         "tự động tạo kịch bản video, tư liệu video, phụ đề video và nhạc nền video, "
         "sau đó tổng hợp thành một video ngắn độ nét cao.\n\n"
-        "https://github.com/harry0703/MoneyPrinterTurbo",
+        "https://github.com/quoc-modoro/9Money",
     },
 )
 
@@ -1325,7 +1325,7 @@ with right_panel:
         st.write(tr("Subtitle Settings"))
         params.subtitle_enabled = st.checkbox(tr("Enable Subtitles"), value=True)
         font_names = get_all_fonts()
-        saved_font_name = config.ui.get("font_name", "MicrosoftYaHeiBold.ttc")
+        saved_font_name = config.ui.get("font_name", "BeVietnamPro-Bold.ttf")
         saved_font_name_index = 0
         if saved_font_name in font_names:
             saved_font_name_index = font_names.index(saved_font_name)
